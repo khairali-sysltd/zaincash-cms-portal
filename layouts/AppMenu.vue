@@ -20,6 +20,13 @@ const model = ref([
                 icon: 'pi pi-fw pi-bookmark',
                 to: '/uikit/floatlabel'
             },
+/// new changes for task
+            {
+                label: 'My Page',
+                icon: 'pi pi-fw pi-id-card',
+                to: '/my-page/form'
+            },
+        ///// new changes end
             {
                 label: 'Invalid State',
                 icon: 'pi pi-fw pi-exclamation-circle',

@@ -106,6 +106,7 @@ export default {
       // Close the form popup
       this.showPopup = false;
     }
+    
   }
 };
 </script>
