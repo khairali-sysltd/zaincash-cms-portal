@@ -34,11 +34,20 @@ export default defineNuxtConfig({
           `
         }
     ],
-    css: ['primeicons/primeicons.css', 'primeflex/primeflex.scss', 'primevue/resources/primevue.min.css', '@/assets/styles.scss'],
+    css: ['primeicons/primeicons.css', 'primeflex/primeflex.scss', 'primevue/resources/primevue.min.css', '@/assets/styles.scss','@/assets/css/_styles.scss'],
+    //// _tyles.scss 
+    styleResources: {
+        scss: [
+          '@/assets/css/_styles.scss',
+        ]
+      },
+
+
+
     runtimeConfig: {
-        apiKey: '' // Default to an empty string, automatically set at runtime using process.env.NUXT_API_KEY
+        apiKey: '', // Default to an empty string, automatically set at runtime using process.env.NUXT_API_KEY
         public: {
-           baseURL: 'http://localhost:8084' // Exposed to the frontend as well.
+           baseURL: 'http://localhost:8084', // Exposed to the frontend as well.
         }
       }
 });
