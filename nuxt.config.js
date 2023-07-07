@@ -35,13 +35,14 @@ export default defineNuxtConfig({
         }
     ],
     css: ['primeicons/primeicons.css', 'primeflex/primeflex.scss', 'primevue/resources/primevue.min.css', '@/assets/styles.scss','@/assets/css/_styles.scss'],
+   
+   
     //// _tyles.scss 
     styleResources: {
         scss: [
           '@/assets/css/_styles.scss',
         ]
       },
-
 
 
     runtimeConfig: {
